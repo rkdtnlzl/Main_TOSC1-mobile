@@ -1,0 +1,695 @@
+@import
+url(https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@1.0/nanumsquare.css);
+
+@font-face {
+    font-family: 'Gotham-Bold';
+    src: url("font/Gotham-Bold.otf");
+}
+
+@font-face {
+    font-family: 'RockwellStd';
+    src:url("font/RockwellStd.otf");
+}
+
+.apply_exp{
+    width: 500px;
+    height: 2317px;
+    padding-top:96px;
+    display: flex;
+}
+.rules_exp{
+    width: 1640px;
+    height: 4000px;
+    padding-top:129px;
+    display: flex;
+}
+
+.left_title{
+    height: 151px;
+    font-weight: 800;
+    font-family: 'NanumSquare';
+    margin-left:125px;
+}
+.left_title2{
+    height: 151px;
+    font-weight: 800;
+    font-family: 'NanumSquare';
+    margin-left:100px;
+    margin-top: 80px;
+}
+
+.tp{
+    width: 32px;
+    height: 7px;
+    background-image: url("images/underbar.png");
+}
+.num1{
+    width: 36px;    
+    font-size: 53px;
+    font-weight: 800;
+    font-family: 'RockwellStd', sans-serif;
+    color: #585959;
+}
+
+.tap{
+    margin-top: 16px;
+    width: 293px;
+    text-align: left;
+
+    font: normal normal 800 50px/60px NanumSquare;
+    letter-spacing: 0px;
+    color: #464646;
+    opacity: 1; 
+}
+.price1{
+    display: flex;
+}
+.tap1{
+    margin-top: 15px;
+    text-align: left;
+    font: normal normal 800 39px/44px NanumSquare;
+    letter-spacing: 0.24px;
+    color: #464646;
+    opacity: 1;
+}
+#go_test{
+    margin-left: 540px;
+    margin-right: 50px;
+    margin-top: 97px;
+    font: normal normal 800 22px/30px NanumSquare;
+    letter-spacing: 0.24px;
+    color: #653DDC;
+    opacity: 1;
+}
+.right_tap a{
+    text-decoration-line: none;
+}
+
+.right_content1{
+    position:absolute;
+    left:50%;
+    margin-left:-20%;
+    margin-top: 85px;
+}
+
+.right_content1 > hr{
+    margin-top: 136px;
+    border: 1px solid #D5D5D5;
+    opacity: 1;
+}
+
+.right_content2{
+    position:absolute;
+    left:50%;
+    margin-left:-20%;
+    margin-top: 80px;
+}
+
+.text1 {
+    font: normal normal normal 38px/55px NanumSquare;
+    font-weight: 400;
+    letter-spacing: 0.24px;
+    color: #464646;
+}
+
+.text1 > p > span{
+    font: normal normal 800 38px/55px NanumSquare;
+    letter-spacing: 0.24px;
+    color: #464646;
+}
+#vio{
+    margin-top: 36px;
+}
+
+.right_tap{
+    text-align: left;
+    font: normal normal 800 30px/35px NanumSquare;
+    letter-spacing: 0.19px;
+    color: #464646;
+    opacity: 1;
+}
+
+.google_form {
+    display:inline-flex;
+    font-size:30px;
+    text-align : left;
+    margin-top:90px;
+    font-family: 'NanumSquare';
+    background-color: #8FCBF3;
+}
+
+.google_form a {
+    text-decoration-line: none;
+    color : white;
+}
+
+#tap1{
+    margin-top: 97px;
+}
+#tap2, #tap8{
+    margin-top: 152px;  
+}
+#tap3, #tap10{
+    margin-top: 144.84px;
+}
+#tap4{
+    margin-top: 110.32px;
+}
+#tap5{
+    margin-top: 110px;
+}
+#tap5-0{
+    margin-top: 31.34px;
+    text-align: left;
+    font: normal normal 800 25px/28px NanumSquare;
+    letter-spacing: 0.16px;
+    color: #464646;
+    opacity: 1;
+}
+#tap6{
+    margin-top: 148.75px;
+}
+#tap7{
+    margin-top: 133.34px;
+}
+#tap9{
+    margin-top: 129.47px;
+}
+
+
+.price_table{
+    width: 812px;
+    height: 222px;
+    margin-top: 25.24px;
+    background-image: url("images/price_table.png");
+}
+.step_table{
+    width: 865px;
+    height: 924px;
+    margin-top: 43px;
+    background-image: url("images/apply_guide.png") ;
+}
+.que_table{
+    width: 881px;
+    height: 734px;
+    margin-left: -32px;
+    background-image: url("images/apply_chart.png") ;
+}
+.ID_table{
+    width: 812px;
+    height: 395px;
+    margin-top: 16.34px;
+    background-image: url("images/ID_table.png") ;
+}
+.prog_table{
+    width: 880px;
+    height: 389px;
+    margin-left: -33.64px;
+    background-image: url("images/test_card.png") ;
+
+}
+.cheat_table{
+    width: 814px;
+    height: 178px;
+    margin-top: 16.34px;
+    background-image: url("images/cheat_table.png") ;
+}
+.step{
+    text-align: left;
+    font: normal normal 800 20px/30px NanumSquare;
+    letter-spacing: 0px;
+    color: #464646;
+    text-shadow: inset 0px 3px 6px #46464629;
+    opacity: 1;
+}
+.txt{
+    text-align: left;
+    font: normal normal 800 20px/30px NanumSquare;
+    letter-spacing: 0px;
+    color: #464646;
+    text-shadow: inset 0px 3px 6px #46464629;
+    opacity: 1;
+}
+#num1{
+    margin-top: 39px;
+}
+#num2{
+    margin-top: 19px;
+}
+#num3{
+    margin-top: 49px;
+}
+#num4, #num5{
+    margin-top: 33.81px;
+}
+
+#num6, #num7{
+    margin-top: 64px;
+}
+#num8, #num9{
+    margin-top: 44.8px;
+}
+.txt_01{
+    padding-left: 21px;
+    text-align: left;
+    font: normal normal normal 20px/30px NanumSquare;
+    letter-spacing: 0px;
+    color: #464646;
+    text-shadow: inset 0px 3px 6px #46464629;
+    opacity: 1;
+}
+.txt{
+    text-align: left;
+    font: normal normal normal 20px/30px NanumSquare;
+    letter-spacing: 0px;
+    color: #464646;
+    text-shadow: inset 0px 3px 6px #46464629;
+    opacity: 1;
+}
+#sp1{
+    font: normal normal bold 20px/30px NanumSquare;
+}
+#sp2{
+    font: normal normal 800 20px/30px NanumSquare;
+}
+#txt1{
+    margin-top: 13px;
+}
+#txt2, #txt4{
+    margin-top: 39px;
+}
+#txt3, #txt5, #txt6, #txt7, #txt8, #txt9, #txt10{
+    margin-top: 20px;
+}
+#txt11, #txt12{
+    margin-top: 28.81px;
+}
+
+.text2 {
+    margin-top: 39px;
+
+    text-align: left;
+    font: normal normal normal 20px/30px NanumSquare;
+    letter-spacing: 0px;
+    color: #464646;
+}
+
+.text2 > p > span {
+    text-align: left;
+    font: normal normal 800 20px/30px NanumSquare;
+    letter-spacing: 0px;
+    color: #464646;
+}
+
+.copyrights {
+    font: normal normal 13px/14px Gotham;
+    text-align: center;
+    color: #6d6c6c;
+    justify-content: space-between;
+    height: 130px;
+    margin-top: 35px;   
+    display: flex;
+    opacity:0.7;
+}
+.copyright1{
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.copy_wrap{
+    padding-left: 140px;
+    padding-right: 140px;
+    margin: 488px auto auto 0;
+
+}
+.copy_wrap > hr{
+    margin: auto;
+    height: 0px;
+    border: 1px solid #D5D5D5;
+    opacity: 1;
+}
+#t3{
+    margin-top: 23px;
+    text-align: center;
+    font: normal normal 800 15px/13px NanumSquare;
+    letter-spacing: 0px;
+    color: #6C6C6C;
+    opacity: 1;
+}
+
+
+
+
+
+@media (max-width: 768px){
+    html, body { overflow-x: hidden;}
+@import
+url(https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@1.0/nanumsquare.css);
+
+
+@font-face {
+    font-family: 'Gotham-Bold';
+    src: url("font/Gotham-Bold.otf");
+}
+
+@font-face {
+    font-family: 'RockwellStd';
+    src:url("font/RockwellStd.otf");
+}
+
+.apply_exp{
+    width: 500px;
+    height: 1217px;
+    padding-top:96px;
+    display: flex;
+}
+.rules_exp{
+    width: 1640px;
+    height: 2600px;
+    padding-top: 130px;
+    display: flex;
+}
+
+.left_title{
+    height: 151px;
+    font-weight: 800;
+    font-family: 'NanumSquare';
+    margin-left:40px;
+}
+.left_title2{
+    height: 151px;
+    font-weight: 800;
+    font-family: 'NanumSquare';
+    margin-left:40px;
+    margin-top: 80px;
+}
+
+.tosc_side_logo_1 {
+    width: 0px;
+    height: 600px;
+    background-image: url("images/tosc_side_logo2.png");
+    position:absolute;
+    right: -18px;
+    top: 885px;
+    opacity: 0.7;
+
+}
+.tosc_side_logo_2 {
+    width: 0px;
+    height: 600px;
+    background-image: url("images/tosc_side_logo2.png");
+    position:absolute;
+    right: -18px;
+    top: 4271px;
+    opacity: 0.7;
+}
+.tp{
+    width: 32px;
+    height: 7px;
+    background-image: url("images/underbar.png");
+}
+.num1{
+    width: 36px;    
+    font-size: 15px;
+    font-weight: 800;
+    font-family: 'RockwellStd', sans-serif;
+    color: #585959;
+}
+
+.tap{
+    margin-top: 16px;
+    width: 211px;
+    text-align: left;
+    font: normal normal 800 17px/30px NanumSquare;
+    letter-spacing: 0px;
+    color: #464646;
+    opacity: 1; 
+}
+.price1{
+    display: flex;
+}
+#go_test{
+    margin-left: -47px;
+    margin-right: 50px;
+    margin-top: 97px;
+    font: normal normal 800 13px/20px NanumSquare;
+    letter-spacing: 0.24px;
+    color: #653DDC;
+    opacity: 1;
+}
+.right_tap a{
+    text-decoration-line: none;
+}
+
+.right_content1{
+    position:absolute;
+    left:50%;
+    margin-left:-20%;
+    margin-top: 85px;
+}
+
+.right_content1 > hr{
+    margin-top: 136px;
+    border: 1px solid #D5D5D5;
+    opacity: 1;
+}
+
+.right_content2{
+    position:absolute;
+    left:50%;
+    margin-left:-20%;
+    margin-top: 80px;
+}
+
+.text1 {
+    font: normal normal normal 13px/35px NanumSquare;
+    font-weight: 400;
+    letter-spacing: 0.24px;
+    color: #464646;
+}
+
+.text1 > p > span{
+    font: normal normal 800 13px/35px NanumSquare;
+    letter-spacing: 0.24px;
+    color: #464646;
+}
+#vio{
+    margin-top: 36px;
+}
+
+.right_tap{
+    text-align: left;
+    font: normal normal 800 15px/25px NanumSquare;
+    letter-spacing: 0.19px;
+    color: #464646;
+    opacity: 1;
+}
+
+.google_form {
+    display:inline-flex;
+    font-size:30px;
+    text-align : left;
+    margin-top:90px;
+    font-family: 'NanumSquare';
+    background-color: #8FCBF3;
+}
+
+.google_form a {
+    text-decoration-line: none;
+    color : white;
+}
+
+#tap1{
+    margin-top: 30px;
+}
+#tap2, #tap8{
+    margin-top: 54px;  
+}
+#tap3, #tap10{
+    margin-top: 60.84px;
+}
+#tap4{
+    margin-top: 110.32px;
+}
+#tap5{
+    margin-top: 100px;
+}
+#tap5-0{
+    margin-top: 31.34px;
+    text-align: left;
+    font: normal normal 800 13px/19px NanumSquare;
+    letter-spacing: 0.16px;
+    color: #464646;
+    opacity: 1;
+}
+#tap6{
+    margin-top: 40.75px;
+}
+#tap7{
+    margin-top: 33.34px;
+}
+#tap9{
+    margin-top: 29.47px;
+}
+
+
+.price_table{
+    width: 162px;
+    height: 44px;
+    margin-top: 25.24px;
+    background-image: url("images/apply_chart1.svg");
+}
+.step_table{
+    width: 173px;
+    height: 184.9px;
+    margin-top: 12px;
+    background-image: url("images/apply_guide_1.svg") ;
+}
+.que_table{
+    width: 176px;
+    height: 147px;
+    margin-left: 5px;
+    background-image: url("images/apply_chart_1.svg") ;
+}
+.ID_table{
+    width: 162px;
+    height: 79px;
+    margin-top: 16.34px;
+    background-image: url("images/ID_table_1.svg") ;
+}
+.prog_table{
+    width: 176px;
+    height: 78px;
+    margin-left: 5px;
+    background-image: url("images/test_card_1.svg") ;
+
+}
+.cheat_table{
+    width: 162px;
+    height: 35px;
+    margin-top: 16.34px;
+    background-image: url("images/cheat_table_1.svg") ;
+}
+.step{
+    text-align: left;
+    font: normal normal 800 10px/20px NanumSquare;
+    letter-spacing: 0px;
+    color: #464646;
+    text-shadow: inset 0px 3px 6px #46464629;
+    opacity: 1;
+}
+.txt{
+    text-align: left;
+    font: normal normal 800 10px/20px NanumSquare;
+    letter-spacing: 0px;
+    color: #464646;
+    text-shadow: inset 0px 3px 6px #46464629;
+    opacity: 1;
+}
+#num1{
+    margin-top: 39px;
+}
+#num2{
+    margin-top: 19px;
+}
+#num3{
+    margin-top: 49px;
+}
+#num4, #num5{
+    margin-top: 33.81px;
+}
+
+#num6, #num7{
+    margin-top: 64px;
+}
+#num8, #num9{
+    margin-top: 44.8px;
+}
+.txt_01{
+    padding-left: 21px;
+    text-align: left;
+    font: normal normal normal 10px/20px NanumSquare;
+    letter-spacing: 0px;
+    color: #464646;
+    text-shadow: inset 0px 3px 6px #46464629;
+    opacity: 1;
+}
+.txt{
+    text-align: left;
+    font: normal normal normal 10px/20px NanumSquare;
+    letter-spacing: 0px;
+    color: #464646;
+    text-shadow: inset 0px 3px 6px #46464629;
+    opacity: 1;
+}
+#sp1{
+    font: normal normal bold 10px/20px NanumSquare;
+}
+#sp2{
+    font: normal normal 800 10px/20px NanumSquare;
+}
+#txt1{
+    margin-top: 13px;
+}
+#txt2, #txt4{
+    margin-top: 39px;
+}
+#txt3, #txt5, #txt6, #txt7, #txt8, #txt9, #txt10{
+    margin-top: 20px;
+}
+#txt11, #txt12{
+    margin-top: 28.81px;
+}
+
+.text2 {
+    margin-top: 39px;
+
+    text-align: left;
+    font: normal normal normal 10px/20px NanumSquare;
+    letter-spacing: 0px;
+    color: #464646;
+}
+
+.text2 > p > span {
+    text-align: left;
+    font: normal normal 800 10px/20px NanumSquare;
+    letter-spacing: 0px;
+    color: #464646;
+}
+
+.copyrights {
+    font: normal normal 5px/12px Gotham;
+    text-align: center;
+    color: #6d6c6c;
+    justify-content: space-between;
+    height: 130px;
+    margin-top: 35px;   
+    display: flex;
+    opacity:0.7;
+}
+.copyright1{
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.copy_wrap{
+    padding-left: 30px;
+    padding-right: 30px;
+    margin: 488px auto auto 0;
+
+}
+.copy_wrap > hr{
+    margin: auto;
+    height: 0px;
+    border: 1px solid #D5D5D5;
+    opacity: 1;
+}
+#t3{
+    margin-top: 23px;
+    text-align: center;
+    font: normal normal 800 5px/13px NanumSquare;
+    letter-spacing: 0px;
+    color: #6C6C6C;
+    opacity: 1;
+}
+}

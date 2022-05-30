@@ -1,0 +1,136 @@
+@font-face {
+  font-family: 'Gotham-Bold';
+  src: url("font/Gotham-Bold.otf");
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+body{ /*container : 전체 */
+  background: url("images/background.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar_menu {
+  display: flex;
+  list-style: none; /*list앞에 점 없애줌*/
+}
+
+.navbar_menu li {
+  padding: 8px 12px;      /*바꿔도됨*/
+  box-sizing: border-box;
+  border-style: solid;
+  background-color: none;
+  border-color: white;
+  border-radius: 20px;
+  border-width: 1px;
+}
+
+.navbar_menu li:hover {
+  background-color: rgb(62, 169, 144);
+  border-radius: 20px;
+}
+
+.navbar_toggleBtn {
+  display: none;
+  position: absolute;
+  right: 32px;
+  font-size: 24px;
+  color: #e4d7ce;
+}
+
+/*끝*/
+
+@media screen and (max-width: 768px) {
+  @font-face {
+    font-family: 'Gotham-Bold';
+    src: url("font/Gotham-Bold.otf");
+  }
+    
+  *{
+    margin: 0;
+    padding: 0;
+  }
+
+  .navbar{
+    flex-direction: column;
+    align-items: flex-start;
+    padding : 18px 24px;
+  }
+
+  .navbar_menu {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    width:100%;
+  }
+
+  .navbar_menu li {
+    width: 100%;
+    text-align: center;
+  }
+
+  .navbar_toggleBtn {
+    display: block;
+  }
+    
+  .navbar_menu.active {
+    display: flex;
+  }
+
+  .intro {
+    font-family: 'Gotham-Bold';
+    color:white;
+    text-align: left;
+    padding : 18px 24px;
+    font-size:3vh;
+    margin-top:40%;
+
+  }
+
+  .school {
+    font-family: 'Gotham-Bold';
+    color:white;
+    text-align:left;
+    padding-left : 18px;
+    font-size: 15px;
+  }
+
+  .go_homepage {
+    font-family: 'Gotham-Bold';
+    color:white;
+    text-align:right;
+    position: fixed;
+    right: 15px;
+    bottom: 60px;
+    vertical-align: bottom;
+    opacity: 0.8;
+  }
+
+  .copyright {
+    font-family: 'Gotham-Bold';
+    color:white;
+    text-decoration-line:none;
+    font-size:4px;
+    padding-left : 18px;
+    position: fixed;
+    bottom: 20px;
+    opacity: 0.5;
+  }
+
+}

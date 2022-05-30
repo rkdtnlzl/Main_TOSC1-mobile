@@ -1,0 +1,903 @@
+@import
+url(https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@1.0/nanumsquare.css);
+
+@font-face {
+    font-family: 'Gotham-Bold';
+    src: url("font/Gotham-Bold.otf");
+}
+
+@font-face {
+    font-family: 'RockwellStd';
+    src:url("font/RockwellStd.otf");
+}
+
+* {
+    margin:0;
+    padding:0;
+}
+
+
+.wrap {
+    margin:0;
+    width:100%;
+    height:100%;
+}
+.intro_bg{
+    background-image: url("images/intro.png");
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.intro_bg .header{
+    position: sticky;
+    top:20px;
+    display: flex;
+    justify-content: space-between;
+    padding-left:6%;
+    padding-right:6%;
+    height:80px;
+    align-items: center;
+}
+
+.intro_bg .nav ul li{
+    display: inline-block;
+    margin: 0 10px;
+    box-sizing: border-box;
+    border-style: solid;
+    background-color: none;
+    border-color: white;
+    padding: 5px;
+    padding-left:17px;
+    padding-right:17px;
+    padding-bottom:5px;
+    border-radius: 20px;
+    border-width:1px;
+    font-size:20px;
+    font-weight:bold;
+    position:relative;
+    top:-8px;
+}
+
+.intro_bg .nav ul .FAQ {
+    padding-left:30px;
+    padding-right:30px;
+}
+
+.intro_bg .nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.intro_bg .nav ul li a:hover{
+    color: purple;
+}
+
+.GUIDE {
+    background-color: white;
+}
+#guide{
+    color: #464646;
+}
+
+.intro_title{
+    margin-top:350px;
+    padding-left:7%;
+    padding-bottom: 3%;
+}
+
+.t1{
+    width: 100%;
+    height: 120px;
+}
+.t1 > h1{
+    font-size: 98px;
+    font-family: 'Gotham-Bold';
+    text-align: left;
+    font-weight: 700;
+    color: #FFFFFF
+}
+
+.t2{
+    width: 100%;
+    height: 100%;
+    margin-top: 17px;
+}
+
+.t2 > p{
+    text-align: left;
+    font-size: 37px;
+    font-weight: 500;
+    font-family: 'NanumSquare-Bold';
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    margin-top: 10px;
+}
+.guide_wrap{
+    margin:auto;
+}
+
+/*[수정] height, padding-top*/ 
+.test_exp{
+    width: 500px;   
+    height: 1130px;
+    padding-top:109px;
+    display: flex;
+
+}
+
+.left_title{
+    height: 151px;
+    font-weight: 800;
+    font-family: 'NanumSquare';
+    margin-left:125px;
+}
+
+.tosc_side_logo_1 {
+    width: 207px;
+    height: 600px;
+    background-image: url("images/tosc_side_logo2.png");
+    position:absolute;
+    right: -18px;
+    top: 885px;
+    opacity: 0.7;
+
+}
+.tosc_side_logo_2 {
+    width: 207px;
+    height: 600px;
+    background-image: url("images/tosc_side_logo2.png");
+    position:absolute;
+    right: -18px;
+    top: 2656px;
+    opacity: 0.7;
+}
+
+.tp{
+    width: 32px;
+    height: 7px;
+    background-image: url("images/underbar.png");
+}
+
+.num1{
+    width: 36px;    
+    font-size: 53px;
+    font-weight: 800;
+    font-family: 'RockwellStd', sans-serif;
+    color: #585959;
+}
+
+.tap{
+    margin-top: 16px;
+    width: 211px;
+    text-align: left;
+    font: normal normal 800 55px/66px NanumSquare;
+    letter-spacing: 0px;
+    color: #464646;
+    opacity: 1; 
+}
+
+/*[수정] margin-top */ 
+.right_content1{
+    position:absolute;
+    left:50%;
+    margin-left:-20%;
+    margin-top: 90px;
+}
+
+/*[수정] margin-top */ 
+.right_content1 > hr{
+    margin-top: 150px;
+    border: 1px solid #D5D5D5;
+    opacity: 1;
+}
+
+.text1 {
+    font: normal normal normal 38px/55px NanumSquare;
+    font-weight: 400;
+    letter-spacing: 0.24px;
+    color: #464646;
+}
+
+.text1 > p > span{
+    font: normal normal 800 38px/55px NanumSquare;
+    letter-spacing: 0.24px;
+    color: #464646;
+}
+
+.text2 {
+    margin-top: 39px;
+
+    text-align: left;
+    font: normal normal normal 20px/30px NanumSquare;
+    letter-spacing: 0px;
+    color: #464646;
+}
+
+.text2 > p > span {
+    text-align: left;
+    font: normal normal 800 20px/30px NanumSquare;
+    letter-spacing: 0px;
+    color: #464646;
+}
+
+.image1{
+    margin-top: 62px;
+    display: flex;
+}
+
+.TOSC_logo{
+    width: 177px;
+    height: 82px;
+    margin-right: 69.84px;
+    background-image: url("images/TOSC_logo.png");
+    opacity: 1;
+}
+
+.SJU_logo{
+    width: 291px;
+    height: 77px;   
+    background-image: url("images/sejong_logo2.png");
+    opacity: 1;
+}
+
+/*[수정] padding-top height*/ 
+.grade_exp{
+      /*요 부분 지우니까 스크롤 또 없어짐*/
+    height: 1662px;
+    padding-top: 120px;    
+    display: flex;
+}
+
+.tap1{
+    margin-top: 15px;
+    text-align: left;
+    font: normal normal 800 39px/44px NanumSquare;
+    letter-spacing: 0.24px;
+    color: #464646;
+    opacity: 1;
+}
+
+/*[수정] padding-top */ 
+.right_content2{
+    position:absolute;
+    left:50%;
+    margin-left:-20%;
+    padding-top: 10px;
+}
+
+/*[수정] margin-top */ 
+.right_content2 > hr{
+    margin-top: 150px;
+    border: 1px solid #D5D5D5;
+    opacity: 1;
+}
+
+.right_content2 > p{
+    text-align: left;
+    font: normal normal normal 17px/30px NanumSquare;
+    letter-spacing: 0px;
+    color: #000000;
+    text-shadow: inset 0px 3px 6px #46464629;
+    opacity: 1;
+}
+
+
+#text2-1{
+    margin-right:31px;
+}
+#tap1{
+    margin-top: 30px;
+}
+
+/*[수정] margin-top */ 
+.grade_table{
+    background-image: url("images/chart.png");
+    background-size:contain;
+    background-position: 50% 50%;
+    margin-top: 25px;
+    height:1112px;
+    width: 812px;
+}
+
+#grade_guide {
+    text-align: left;
+    font: normal normal 800 30px/35px NanumSquare;
+    letter-spacing: 0.19px;
+    color: #464646;
+    opacity: 1;
+}
+
+/*[수정] padding-top */ 
+.date_place{
+    width: 1640px;
+    height: 2000px;
+    padding-top: 150px;   
+    display: flex;
+}
+.dp1{
+    margin-top: 10px;
+    text-align: left;
+    font: normal normal 800 30px/35px NanumSquare;
+    letter-spacing: 0.19px;
+    color: #464646;
+    text-shadow: inset 0px 3px 6px #46464629;
+    opacity: 1;
+}
+
+.dp{
+    margin-top: 65px;
+    text-align: left;
+    font: normal normal 800 30px/35px NanumSquare;
+    letter-spacing: 0.19px;
+    color: #464646;
+    text-shadow: inset 0px 3px 6px #46464629;
+    opacity: 1;
+}
+#tap2{
+    margin-top: 26px;
+}
+
+.card_wrap{
+    width: 880px;
+    height: 389px;
+    margin-top: 18px;
+    margin-left: -36px;
+    background-image: url("images/test_card.png");
+}
+
+.exp{
+    margin-top: 12px;
+
+    text-align: center;
+    font: normal normal bold 18px/23px NanumSquare;
+    letter-spacing: 0.13px;
+    color: #464646;
+    opacity: 1;
+}
+#exp1{
+    width: 135px;
+    height: 22px;
+    margin-left: 93px;
+}
+#exp2{
+    width: 172px;
+    height: 45px;
+    margin-left: 73px;
+}
+#exp3{
+    width: 120px;
+    height: 45px;
+    margin-left: 100px;
+}
+
+.button > p{
+    margin-top: 8.91px;
+    margin-left: 22px;
+    font: normal normal 800 20px/23px NanumSquare;
+    letter-spacing: 0.13px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+/*[수정] margin-top */ 
+.load_wrap{
+    width: 422px;
+    height: 34px;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal 800 30px/35px NanumSquare;
+    letter-spacing: 0.19px;
+    color: #464646;
+    text-shadow: inset 0px 3px 6px #46464629;
+    opacity: 1;
+    margin-top: 100px;
+}
+#plus{
+    margin-top: 22px;
+    text-align: left;
+    font: normal normal normal 20px/30px NanumSquare;
+    letter-spacing: 0px;
+    color: #464646;
+    text-shadow: inset 0px 3px 6px #46464629;
+    opacity: 1;
+}
+
+.load_map{
+    width: 812px;
+    height: 1083px;
+    margin-top: 77px;
+    background-image: url("images/load_map.png");
+}
+
+.copyrights {
+    font: normal normal 13px/14px Gotham;
+    text-align: center;
+    color: #6d6c6c;
+    justify-content: space-between;
+    height: 130px;
+    margin-top: 35px;   
+    display: flex;
+    opacity:0.7;
+}
+.copyright1{
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.copy_wrap{
+    padding-left: 140px;
+    padding-right: 140px;
+    margin: 488px auto auto 0;
+
+}
+.copy_wrap > hr{
+    margin: auto;
+    height: 0px;
+    border: 1px solid #D5D5D5;
+    opacity: 1;
+}
+#t3{
+    margin-top: 23px;
+    text-align: center;
+    font: normal normal 800 15px/13px NanumSquare;
+    letter-spacing: 0px;
+    color: #6C6C6C;
+    opacity: 1;
+}
+
+
+
+
+/*미디어 쿼리*/
+
+@media (max-width: 768px){
+    html, body {
+        overflow-x: hidden;
+    }
+    @import
+url(https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@1.0/nanumsquare.css);
+
+@font-face {
+    font-family: 'Gotham-Bold';
+    src: url("font/Gotham-Bold.otf");
+}
+
+@font-face {
+    font-family: 'RockwellStd';
+    src:url("font/RockwellStd.otf");
+}
+
+* {
+    margin:0;
+    padding:0;
+}
+
+
+.wrap {
+    margin:0;
+    width:100%;
+    height:100%;
+}
+.intro_bg{
+    background-image: url("images/intro.png");
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.intro_bg .header{
+    flex-direction: column;
+    position: sticky;
+    top:20px;
+    display: flex;
+    justify-content: space-between;
+    padding-left:2%;
+    padding-right:2%;
+    height:80px;
+    align-items: center;
+}
+.nav {
+    text-align: center;
+    margin-top: 30px;
+}
+.intro_bg .nav ul li{
+    display: inline-block;
+    margin: 0 10px;
+    box-sizing: border-box;
+    border-style: solid;
+    background-color: none;
+    border-color: white;
+    margin-top: 10px;
+    border-radius: 20px;
+    border-width:1px;
+    font-size:9px;
+    font-weight:bold;
+    position:relative;
+    top:-8px;
+}
+
+.intro_bg .nav ul .FAQ {
+    padding-left:25px;
+    padding-right:25px;
+}
+
+.intro_bg .nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.intro_bg .nav ul li a:hover{
+    color: purple;
+}
+
+.GUIDE {
+    background-color: white;
+}
+#guide{
+    color: #464646;
+}
+
+.intro_title{
+    margin-top:180px;
+    padding-left:7%;
+    padding-bottom: 3%;
+}
+
+.t1{
+    width: 100%;
+    height: 60px;
+}
+.t1 > h1{
+    font-size: 40px;
+    font-family: 'Gotham-Bold';
+    text-align: left;
+    font-weight: 500;
+    color: #FFFFFF
+}
+
+.t2{
+    width: 100%;
+    height: 100%;
+}
+
+.t2 > p{
+    text-align: left;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'NanumSquare-Bold';
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    margin-top: 7px;
+}
+.guide_wrap{
+    margin:auto;
+}
+
+/*[수정] height, padding-top*/ 
+.test_exp{
+    width: 500px;   
+    height: 830px;
+    padding-top:109px;
+    display: flex;
+
+}
+
+.left_title{
+    height: 151px;
+    font-weight: 800;
+    font-family: 'NanumSquare';
+    margin-left:40px;
+}
+
+.tosc_side_logo_1 {
+    width: 0px;
+    height: 600px;
+    background-image: url("images/tosc_side_logo2.png");
+    position:absolute;
+    right: -18px;
+    top: 885px;
+    opacity: 0.7;
+
+}
+.tosc_side_logo_2 {
+    width: 0px;
+    height: 600px;
+    background-image: url("images/tosc_side_logo2.png");
+    position:absolute;
+    right: -18px;
+    top: 2656px;
+    opacity: 0.7;
+}
+
+.tp{
+    width: 23px;
+    height: 5px;
+    background-image: url("images/underbar.png");
+}
+
+.num1{
+    width: 36px;    
+    font-size: 15px;
+    font-weight: 800;
+    font-family: 'RockwellStd', sans-serif;
+    color: #585959;
+}
+
+.tap{
+    margin-top: 16px;
+    width: 211px;
+    text-align: left;
+    font: normal normal 800 17px/30px NanumSquare;
+    letter-spacing: 0px;
+    color: #464646;
+    opacity: 1; 
+}
+
+/*[수정] margin-top */ 
+.right_content1{
+    position:absolute;
+    left:50%;
+    margin-left:-10%;
+    margin-top: 0px;
+}
+
+/*[수정] margin-top */ 
+.right_content1 > hr{
+    margin-top: 100px;
+    border: 1px solid #D5D5D5;
+    opacity: 1;
+}
+
+.text1 {
+    font: normal normal normal 10px/15px NanumSquare;
+    font-weight: 400;
+    letter-spacing: 0.24px;
+    color: #464646;
+}
+
+.text1 > p > span{
+    font: normal normal 800 10px/15px NanumSquare;
+    letter-spacing: 0.24px;
+    color: #464646;
+}
+
+.text2 {
+    margin-top: 39px;
+
+    text-align: left;
+    font: normal normal normal 7px/25px NanumSquare;
+    letter-spacing: 0px;
+    color: #464646;
+}
+
+.text2 > p > span {
+    text-align: left;
+    font: normal normal 800 7px/30px NanumSquare;
+    letter-spacing: 0px;
+    color: #464646;
+}
+
+.image1{
+    margin-top: 62px;
+    display: flex;
+}
+
+.TOSC_logo{
+    left: 70%;
+    width: 58px;
+    height: 27px;
+    background-image: url("images/tosc.logo_1.svg");
+    opacity: 1;
+}
+
+.SJU_logo{
+    width: 97px;
+    height: 26px;   
+    background-image: url("images/sanhak_logo.svg");
+    opacity: 1;
+}
+
+/*[수정] padding-top height*/ 
+.grade_exp{
+      /*요 부분 지우니까 스크롤 또 없어짐*/
+    height: 602px;
+    padding-top: 5px;    
+}
+
+.tap1{
+    margin-top: 16px;
+    width: 211px;
+    text-align: left;
+    font: normal normal 800 13px/30px NanumSquare;
+    letter-spacing: 0px;
+    color: #464646;
+    opacity: 1; 
+}
+
+/*[수정] padding-top */ 
+.right_content2{
+    position:absolute;
+    left:50%;
+    margin-left:-10%;
+    padding-top: 10px;
+}
+
+/*[수정] margin-top */ 
+.right_content2 > hr{
+    margin-top: 100px;
+    border: 1px solid #D5D5D5;
+    opacity: 1;
+}
+
+.right_content2 > p{
+    text-align: left;
+    font: normal normal normal 17px/30px NanumSquare;
+    letter-spacing: 0px;
+    color: #000000;
+    text-shadow: inset 0px 3px 6px #46464629;
+    opacity: 1;
+}
+
+#text2_wrap{
+    display: flex; 
+}
+#text2-1{
+    margin-right:31px;
+}
+#tap1{
+    margin-top: 52px;
+}
+
+/*[수정] margin-top */ 
+.grade_table{
+    background-image: url("images/grade_guide_1.svg");
+    margin-top: 25px;
+    height:185px;
+    width: 135px;
+}
+
+#grade_guide {
+    text-align: left;
+    font: normal normal 800 20px/35px NanumSquare;
+    letter-spacing: 0.19px;
+    color: #464646;
+    opacity: 1;
+}
+
+/*[수정] padding-top */ 
+.date_place{
+    width: 450px;
+    height: 500px;
+    padding-top: 150px;   
+    display: flex;
+}
+.dp1{
+    margin-top: 10px;
+    text-align: left;
+    font: normal normal 800 8px/25px NanumSquare;
+    letter-spacing: 0.19px;
+    color: #464646;
+    text-shadow: inset 0px 3px 6px #46464629;
+    opacity: 1;
+}
+.dp{
+    text-align: left;
+    font: normal normal 800 8px/25px NanumSquare;
+    letter-spacing: 0.19px;
+    color: #464646;
+    text-shadow: inset 0px 3px 6px #46464629;
+    opacity: 1;
+}
+#tap2{
+    margin-top: 26px;
+}
+
+.card_wrap{
+    width: 233px;
+    height: 100px;
+    margin-top: 18px;
+    margin-left: -16px;
+    background-image: url("images/test_card_1.svg");
+}
+
+.exp{
+    margin-top: 12px;
+
+    text-align: center;
+    font: normal normal bold 16px/23px NanumSquare;
+    letter-spacing: 0.13px;
+    color: #464646;
+    opacity: 1;
+}
+#exp1{
+    width: 135px;
+    height: 22px;
+    margin-left: 93px;
+}
+#exp2{
+    width: 172px;
+    height: 45px;
+    margin-left: 73px;
+}
+#exp3{
+    width: 120px;
+    height: 45px;
+    margin-left: 100px;
+}
+
+.button > p{
+    margin-top: 8.91px;
+    margin-left: 22px;
+    font: normal normal 800 20px/23px NanumSquare;
+    letter-spacing: 0.13px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+/*[수정] margin-top */ 
+.load_wrap{
+    width: 422px;
+    height: 34px;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal 800 8px/25px NanumSquare;
+    letter-spacing: 0.19px;
+    color: #464646;
+    text-shadow: inset 0px 3px 6px #46464629;
+    opacity: 1;
+    margin-top: 60px;
+}
+#plus{
+    margin-top: 22px;
+    text-align: left;
+    font: normal normal normal 6px/20px NanumSquare;
+    letter-spacing: 0px;
+    color: #464646;
+    text-shadow: inset 0px 3px 6px #46464629;
+    opacity: 1;
+}
+
+.load_map{
+    width: 135px;
+    height: 180px;
+    margin-top: 77px;
+    background-image: url("images/sejong_map_1.svg");
+}
+
+.copyrights {
+    font: normal normal 5px/12px Gotham;
+    text-align: center;
+    color: #6d6c6c;
+    justify-content: space-between;
+    height: 130px;
+    margin-top: 35px;   
+    display: flex;
+    opacity:0.7;
+}
+.copyright1{
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.copy_wrap{
+    padding-left: 30px;
+    padding-right: 30px;
+    margin: 488px auto auto 0;
+
+}
+.copy_wrap > hr{
+    margin: auto;
+    height: 0px;
+    border: 1px solid #D5D5D5;
+    opacity: 1;
+}
+#t3{
+    margin-top: 23px;
+    text-align: center;
+    font: normal normal 800 5px/13px NanumSquare;
+    letter-spacing: 0px;
+    color: #6C6C6C;
+    opacity: 1;
+}
+}

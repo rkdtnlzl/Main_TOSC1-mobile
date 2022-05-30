@@ -1,0 +1,347 @@
+@import
+url(https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@1.0/nanumsquare.css);
+
+@font-face {
+  font-family: 'Gotham-Bold';
+  src: url("font/Gotham-Bold.otf");
+}
+
+@font-face {
+  font-family: 'RockwellStd';
+  src:url("font/RockwellStd.otf");
+}
+
+* {
+  margin:0;
+  padding:0;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+.wrap {
+  background-image: url("images/sample.png");
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+  
+.navbar_menu {
+  display: flex;
+  list-style: none; /*list앞에 점 없애줌*/
+}
+  
+.navbar_menu li {
+  padding: 8px 12px;      /*바꿔도됨*/
+  box-sizing: border-box;
+  border-style: solid;
+  background-color: none;
+  border-color: white;
+  border-radius: 20px;
+  border-width: 1px;
+}
+  
+.navbar_menu li:hover {
+  background-color: rgb(62, 169, 144);
+  border-radius: 20px;
+}
+
+.SAMPLE {
+  background-color: white;
+}
+#sample{
+  color: #464646;
+}
+  
+.navbar_toggleBtn {
+  display: none;
+  position: absolute;
+  right: 32px;
+  font-size: 24px;
+  color: #e4d7ce;
+}
+/*여기까지 navbar툴 고정부분*/
+
+
+@media (max-width: 768px){
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+    padding : 18px 24px;
+  }
+    
+  .navbar_menu {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    width:100%;
+  }
+    
+  .navbar_menu li {
+    width: 100%;
+    text-align: center;
+  }
+    
+  .navbar_toggleBtn {
+    display: block;
+  }
+        
+  .navbar_menu.active {
+    display: flex;
+  }
+
+  .intro_title{
+    margin-top:180px;
+    padding-left:7%;
+    padding-bottom: 3%;
+  }
+
+  .t1 {
+    width: 100%;
+    height: 60px;
+  }
+  .t1 > h1 {
+    font-size: 40px;
+    font-family: 'Gotham-Bold';
+    text-align: left;
+    font-weight: 500;
+    color: #FFFFFF
+  }
+
+  .t2 {   /*여기만 margin-top위에서 적용되있음*/
+    width: 100%;
+    height: 100%;
+  }
+
+  .t2 > p {
+    text-align: left;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'NanumSquare-Bold';
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    margin-top: 7px;
+  }
+
+  .left_title{
+    margin-left:27%;
+    margin-top: 10%;
+    display: flex;
+    font-weight: 800;
+    font-family: 'NanumSquare';
+    margin-bottom:20px;
+  }
+  .tp{
+    width: 23px;
+    height: 5px;
+    background-image: url("images/underbar.png");
+  }
+
+  .num1{
+    width: 36px;    
+    font-size: 15px;
+    font-weight: 800;
+    font-family: 'RockwellStd', sans-serif;
+    color: #585959;
+  }
+
+  .tap{
+    width: 211px;
+    text-align: left;
+    font: normal normal 800 17px/30px NanumSquare;
+    letter-spacing: 0px;
+    color: #464646;
+    opacity: 1; 
+    margin-left: 5%;
+  }
+
+  .right_content1 {
+    margin-left : 8%;
+    margin-right : 7%;
+  }
+
+  .right_content1 > hr{
+    margin-top: 100px;
+    border: 1px solid #D5D5D5;
+    opacity: 1;
+  }
+
+  .text1 {
+
+
+    text-align: center;
+    margin-top: 10px;
+    font: normal normal normal 13px/25px NanumSquare;
+    font-weight: 200;
+    letter-spacing: 0.24px;
+    color: #464646;
+  }
+
+  .text1 > p > span{
+    font: normal normal 800 13px/25px NanumSquare;
+    letter-spacing: 0.24px;
+    color: #464646;
+  }
+
+  .text2 {
+    margin-top: 39px;
+    text-align: left;
+    font: normal normal normal 10px/20px NanumSquare;
+    letter-spacing: 0px;
+    color: #464646;
+  }
+
+  .text2 > p > span {
+    text-align: left;
+    font: normal normal 800 10px/20px NanumSquare;
+    letter-spacing: 0px;
+    color: #464646;
+  }
+
+  .sample_test{
+    width: 330px;
+    height: 85.3px;
+    margin-top: 12px;
+    background-image: url("images/sample_test_1.svg");
+    background-repeat: no-repeat;
+  }
+
+  .text3 {
+      font: normal normal normal 20px/35px NanumSquare;
+      font-weight: 400;
+      letter-spacing: 0.24px;
+      color: #464646;
+      text-align: center;
+  }
+
+  .text3 > p > span{
+      font: normal normal 800 20px/35px NanumSquare;
+      letter-spacing: 0.24px;
+      color: #464646;
+  }
+
+  .grade_table1{
+      width: 320px;
+      height: 80px;
+      margin-top: 13px;
+      background-image: url("images/sample_chart_1.svg");
+      background-repeat: no-repeat;
+  }
+  .grade_table2{
+      width: 320px;
+      height: 80px;
+      margin-top: 13px;
+      background-image: url("images/sample_chart_2.svg");
+      background-repeat: no-repeat;
+  }
+  .id_table{
+      width: 320px;
+      height: 40px;
+      margin-top: 22px;
+      background-image: url("images/id_table_3.svg");
+      background-repeat: no-repeat;
+  }
+  #text2_1{
+      margin-top: 50px;
+      display: flex;
+  }
+  #text2_1 > p{
+      text-align: left;
+  }
+  #p2{
+      margin-left: 16px;
+  }
+
+  /*[수정]margin-top */ 
+  #t3_1{
+      margin-top: 50px;
+  }
+  /*[수정] t3_10 분할 */ 
+  #t3_2, #t3_5, #t3_8{
+      margin-top: 33.5px;
+  }
+
+  #t3_3{
+      margin-top: 40px;
+  }
+  #t3_4{
+      margin-top: 12px;
+  }
+  #t3_6{
+      margin-top: 48px;
+  }
+  #t3_7{
+      margin-top: 17px;
+  }
+
+  /*[수정]margin-top */ 
+  #t3_9{
+      margin-top: 110px;
+  }
+  /*[수정]t3_10 추가 */ 
+  #t3_10{
+      font-size: 15px;
+      margin-top: 15px;
+      display: flex;
+  }
+  /*[수정] img 추가 */ 
+  .img{
+      width: 15px;
+      height: 20px;
+  }/*[수정] file_icon 추가 */ 
+  #file_icon{
+      margin-top: 5px;
+      margin-left: 5px;
+  }
+
+  #text1_1, #text1_2, #text1_3{
+      margin-top: 50px;
+  }
+
+  .copyrights {
+    font: normal normal 5px/12px Gotham;
+    text-align: center;
+    flex-direction: column;
+    color: #6d6c6c;
+    justify-content: space-between;
+    height: 130px;
+    margin-top: 35px;   
+    display: flex;
+    opacity:0.7;
+  }
+  .copy_wrap{
+      padding-left: 30px;
+      padding-right: 30px;
+      margin-top:50px;
+  }
+  .copy_wrap > hr{
+      margin: auto;
+      height: 0px;
+      border: 1px solid #D5D5D5;
+      opacity: 1;
+  }
+  #t3{
+      margin-top: 23px;
+      text-align: center;
+      font: normal normal 800 5px/13px NanumSquare;
+      letter-spacing: 0px;
+      color: #6C6C6C;
+      opacity: 1;
+  }
+
+  .copyright1,
+  .copyright2,
+  .copyright3 {
+    margin-bottom:10px;
+    text-align: left;
+    margin-left:3%;
+  }
+}

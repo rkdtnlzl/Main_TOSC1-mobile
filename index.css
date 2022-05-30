@@ -1,0 +1,214 @@
+@font-face {
+    font-family: 'Gotham-Bold';
+    src: url("font/Gotham-Bold.otf");
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{ /*container : 전체 */
+    background: url("images/background.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+
+.container .header{ /*header : 위쪽 로고 및 네비바*/
+    display: flex;
+    top:20px;
+    justify-content: space-between;
+    padding-left:6%;
+    padding-right:6%;
+    height:80px;
+    align-items: center;
+    position: sticky;
+}
+
+.container .nav ul li{  /*nav바*/
+    display: inline-block;
+    margin: 0 10px;
+    box-sizing: border-box;
+    border-style: solid;
+    background-color: none;
+    border-color: white;
+    padding: 5px;
+    padding-left:17px;
+    padding-right:17px;
+    padding-bottom:5px;
+    border-radius: 20px;
+    border-width:1px;
+    font-size:20px;
+    font-weight:bold;
+    position:relative;
+    top:-8px;
+}
+
+.container .nav ul .FAQ {   /*FAQ만 따로*/
+    padding-left:30px;
+    padding-right:30px;
+}
+
+.container .nav ul li a{    /**/
+    text-decoration: none;
+    color: white;
+}
+
+.container .nav ul li a:hover{
+    color: purple;
+}
+
+.container .hero{   /*안쪽 내용*/
+    font-family: 'Gotham-Bold';
+    position: absolute;
+    left: 100px;
+    top: 30%;
+    color: white;
+    text-align: center;
+
+}
+
+.container .hero h1{    /*Welcome to test of software coding*/
+    text-align: left;
+    font-size: 13vh;
+    margin-bottom: 20px;
+    line-height:100%;
+    
+}
+
+.container .hero h3{    /*세종대학교산학협력단 SW코딩역량평가*/
+    text-align: left;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.copyright {    /*맨 밑에 copyright*/
+    position: fixed;
+    bottom: 30px;
+    font-size: 15px;
+    text-align:left;
+    opacity: 0.5;
+}
+
+
+.go_homepage a{ /*맨 밑에 홈페이지 바로가기*/
+    font-size: 22px;
+    position : fixed;
+    text-decoration-line:none;
+    right: 125px;
+    bottom: 30px;
+    color: white;
+    text-align: right;
+    vertical-align: bottom;
+    opacity:0.8;
+}
+
+@media (max-width: 768px){
+    @font-face {
+        font-family: 'Gotham-Bold';
+        src: url("font/Gotham-Bold.otf");
+    }
+    
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    
+    .container{
+        background: url("images/background.jpg");
+        background-size: cover;
+        width: 100%;
+        height: 100vh;
+    }
+    .nav {
+        text-align: center;
+        margin-top: 30px;
+    }
+    
+    .container .header{
+        flex-direction: column; /*쌓이는 방식 (Tosc 밑으로 nav바 이동*/
+        position: sticky;
+        top:20px;
+        display: flex; /*해당 내용까지만 박스 생김*/
+        justify-content: space-between; /*컨텐트 사이의 균일한 간격 생성*/
+        padding-left:2%;
+        padding-right:2%;
+        height:80px;
+        align-items: center;
+    }
+    
+    .container .nav ul li{
+        display: inline-block;
+        margin: 0 10px;
+        box-sizing: border-box;
+        border-style: solid;
+        background-color: none;
+        border-color: white;
+        margin-top: 10px;
+        border-radius: 20px;
+        border-width:1px;
+        font-size:9px;
+        font-weight:bold;
+        position:relative;
+        top:-8px;
+    }
+    
+    .container .nav ul .FAQ {
+        padding-left:30px;
+        padding-right:30px;
+    }
+    
+    .container .nav ul li a{
+        text-decoration: none;
+        color: white;
+    }
+    
+    .container .nav ul li a:hover{
+        color: purple;
+    }
+    
+    .container .hero{
+        font-family: 'Gotham-Bold';
+        position: absolute;
+        left: 50px;
+        top: 30%;
+        color: white;
+        text-align: center;
+    }
+    
+    .container .hero h1{       
+        text-align: left;
+        font-size: 6vh;      /*요부분*/
+        margin-bottom: 20px;
+        line-height:100%;
+    }
+    
+    .container .hero h3{
+        text-align: left;
+        font-size: 15px;
+        margin-bottom: 20px;
+    }
+    
+    .copyright {
+        position: fixed;
+        bottom: 30px;
+        font-size: 4px;
+        text-align:left;
+        opacity: 0.5;
+    }
+    
+    
+    .go_homepage a{
+        font-size: 8px;
+        position : fixed;
+        text-decoration-line:none;
+        right: 15px;
+        bottom: 30px;
+        color: white;
+        text-align: right;
+        vertical-align: bottom;
+        opacity:0.8;
+    }
+}
