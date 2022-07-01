@@ -176,15 +176,14 @@ a{
 
   .text1 {
     margin-top: 10px;
-
-    font: normal normal normal 10px/15px NanumSquare;
+    font: normal normal normal 13px/15px NanumSquare;
     font-weight: 400;
     letter-spacing: 0.24px;
     color: #464646;
   }
 
   .text1 > p > span{
-    font: normal normal 800 10px/15px NanumSquare;
+    font: normal normal 800 13px/15px NanumSquare;
     letter-spacing: 0.24px;
     color: #464646;
   }
@@ -192,14 +191,14 @@ a{
   .text2 {
     margin-top: 39px;
     text-align: left;
-    font: normal normal normal 7px/25px NanumSquare;
+    font: normal normal normal 13px/25px NanumSquare;
     letter-spacing: 0px;
     color: #464646;
   }
 
   .text2 > p > span {
     text-align: left;
-    font: normal normal 800 7px/30px NanumSquare;
+    font: normal normal 800 13px/30px NanumSquare;
     letter-spacing: 0px;
     color: #464646;
   }
@@ -228,7 +227,7 @@ a{
   .tap1{
     width: 211px;
     text-align: left;
-    font: normal normal 800 13px/30px NanumSquare;
+    font: normal normal 800 17px/30px NanumSquare;
     letter-spacing: 0px;
     color: #464646;
     opacity: 1; 
@@ -296,15 +295,16 @@ a{
   .dp1{
     margin-top: 10px;
     text-align: left;
-    font: normal normal 800 8px/25px NanumSquare;
+    font: normal normal 800 15px/25px NanumSquare;
     letter-spacing: 0.19px;
     color: #464646;
     text-shadow: inset 0px 3px 6px #46464629;
     opacity: 1;
   }
   .dp{
+    margin-top: 20px;
     text-align: left;
-    font: normal normal 800 8px/25px NanumSquare;
+    font: normal normal 800 15px/25px NanumSquare;
     letter-spacing: 0.19px;
     color: #464646;
     text-shadow: inset 0px 3px 6px #46464629;
@@ -329,7 +329,7 @@ a{
     height: 34px;
     /* UI Properties */
     text-align: left;
-    font: normal normal 800 8px/25px NanumSquare;
+    font: normal normal 800 15px/25px NanumSquare;
     letter-spacing: 0.19px;
     color: #464646;
     text-shadow: inset 0px 3px 6px #46464629;
@@ -339,7 +339,7 @@ a{
   #plus{
     margin-top: 22px;
     text-align: left;
-    font: normal normal normal 6px/20px NanumSquare;
+    font: normal normal normal 8px/20px NanumSquare;
     letter-spacing: 0px;
     color: #464646;
     text-shadow: inset 0px 3px 6px #46464629;

@@ -239,7 +239,7 @@ a{
 
   .right_tap{
       text-align: left;
-      font: normal normal 800 15px/25px NanumSquare;
+      font: normal normal 800 17px/25px NanumSquare;
       letter-spacing: 0.19px;
       color: #464646;
       opacity: 1;
@@ -337,7 +337,7 @@ a{
   }
   .step{
       text-align: left;
-      font: normal normal 800 10px/20px NanumSquare;
+      font: normal normal 800 14px/20px NanumSquare;
       letter-spacing: 0px;
       color: #464646;
       text-shadow: inset 0px 3px 6px #46464629;
@@ -373,7 +373,7 @@ a{
   .txt_01{
       padding-left: 21px;
       text-align: left;
-      font: normal normal normal 10px/20px NanumSquare;
+      font: normal normal normal 12px/20px NanumSquare;
       letter-spacing: 0px;
       color: #464646;
       text-shadow: inset 0px 3px 6px #46464629;
@@ -381,17 +381,17 @@ a{
   }
   .txt{
       text-align: left;
-      font: normal normal normal 10px/20px NanumSquare;
+      font: normal normal normal 12px/20px NanumSquare;
       letter-spacing: 0px;
       color: #464646;
       text-shadow: inset 0px 3px 6px #46464629;
       opacity: 1;
   }
   #sp1{
-      font: normal normal bold 10px/20px NanumSquare;
+      font: normal normal bold 12px/20px NanumSquare;
   }
   #sp2{
-      font: normal normal 800 10px/20px NanumSquare;
+      font: normal normal 800 12px/20px NanumSquare;
   }
   #txt1{
       margin-top: 13px;
@@ -409,14 +409,14 @@ a{
   .text2 {
       margin-top: 39px;
       text-align: left;
-      font: normal normal normal 10px/20px NanumSquare;
+      font: normal normal normal 12px/20px NanumSquare;
       letter-spacing: 0px;
       color: #464646;
   }
 
   .text2 > p > span {
       text-align: left;
-      font: normal normal 800 10px/20px NanumSquare;
+      font: normal normal 800 12px/20px NanumSquare;
       letter-spacing: 0px;
       color: #464646;
   }
